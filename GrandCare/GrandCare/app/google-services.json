@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "323718023145",
+    "firebase_url": "https://grandcare-4ce73-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "grandcare-4ce73",
+    "storage_bucket": "grandcare-4ce73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323718023145:android:1391e822c5dcadde2c2d78",
+        "android_client_info": {
+          "package_name": "com.example.deneme2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323718023145-55gart3iutns06qvg19oe128so9o8b6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLekzBA8VDywHnI5wb7GCuTQwBbVBodKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323718023145-55gart3iutns06qvg19oe128so9o8b6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323718023145:android:d3e618b97bded24f2c2d78",
+        "android_client_info": {
+          "package_name": "com.example.uidesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323718023145-55gart3iutns06qvg19oe128so9o8b6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLekzBA8VDywHnI5wb7GCuTQwBbVBodKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323718023145-55gart3iutns06qvg19oe128so9o8b6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

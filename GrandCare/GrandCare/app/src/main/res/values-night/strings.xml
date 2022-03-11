@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">GrandDemo</string>
+    <string name="title_activity_login">Giriş</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- KAYIT -->
+
+    <string name="kayitad">Ad:</string>
+    <string name="adgir">Adınızı giriniz…</string>
+
+    <string name="kayitsoyad">Soyad:</string>
+    <string name="soyadgir">Soyadınızı giriniz…</string>
+
+    <string name="kayitdogumtarihi">Doğum Tarihi:</string>
+    <string name="dogumtarihigir">Doğum tarihinizi giriniz…</string>
+
+    <string name="kayitsehir">Şehir:</string>
+    <string name="sehirgir">Bulunduğunuz şehri yazınız…</string>
+
+    <string name="kayitemail">E-Mail:</string>
+    <string name="emailgir">E-mail adresinizi giriniz…</string>
+
+    <string name="kayittelno">Telefon numarası:</string>
+    <string name="telnogir">Telefon numaranızı giriniz…</string>
+
+    <string name="emailteluyari">!!! Kayıt işleminin devam edebilmesi için e-mail ve telefon numarası bilgilerinden en az birinin, doğrulama işlemi nedeniyle girilmesi gerekmektedir !!!</string>
+
+    <string name="kayitkullaniciadi">Kullanıcı Adı:</string>
+    <string name="kullaniciadigir">Kullanıcı adınızı seçiniz…</string>
+    <string name="enterusername">Kullanıcı adınızı giriniz…</string>
+
+    <string name="kayitsifre">Şifre:</string>
+    <string name="sifregir">Şifrenizi oluşturunuz…</string>
+    <string name="enterpassword">Şifrenizi giriniz…</string>
+
+    <string name="kayitsifretekrar">Şifre tekrar:</string>
+    <string name="sifretekrargir">Şifrenizi tekrar giriniz…</string>
+
+    <string name="kayittckimlikno">T.C Kimlik no:</string>
+    <string name="tcgir">T.C kimlik numaranızı giriniz…</string>
+
+    <string name="kayitkimlikbelge">Nüfus kimlik belgesi:</string>
+    <string name="belgeyukle">Dosyanızı yükleyin…</string>
+
+    <string name="kayitilgialan">İlgi Alanları:</string>
+    <string name="kayitsaglikbilgi">Sağlık bilgileri</string>
+    <string name="saglikbilgigir">Sağlık bilgilerinizi bizimle paylaşmanız bizim için önemli.Lütfen sağlık bilgilerinizi giriniz…</string>
+
+
+    <string name="nav_home">Anasayfa</string>
+    <string name="nav_dates">Randevularım</string>
+    <string name="nav_contacts">Arkadaşlarım</string>
+    <string name="nav_profile">Profilim</string>
+    <string name="nav_settings">Ayarlar</string>
+    <string name="nav_about_us">Hakkımızda</string>
+    <string name="nav_privacy_policy">Gizlilik Politikası</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="fragment_dates">Fragment Dates</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="noaccount">Hesabınız yok mu?</string>
+    <string name="register">Kaydol</string>
+    <string name="loginwithgoogle">Google Hesabınız ile giriş yapın</string>
+    <string name="remember_me">Beni Hatırla</string>
+    <string name="login">GİRİŞ</string>
+    <string name="page1">page1</string>
+    <string name="registiration">KAYIT</string>
+    <string name="page2">page2</string>
+    <string name="kimlikpage">KİMLİK</string>
+    <string name="authpage">DOĞRULAMA</string>
+    <string name="digergir">Diğer işaretlediyseniz belirtiniz...</string>
+    <string name="aciklamaileri">ilerigit</string>
+    <string name="aciklamageri">gerigit</string>
+    <string name="choosedatetitle">Randevu alınacak kişi</string>
+    <string name="choosedaytitle">Randevu Tarihi:</string>
+</resources>

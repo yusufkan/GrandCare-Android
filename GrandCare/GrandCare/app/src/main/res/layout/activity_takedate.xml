@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="false"
+    tools:context=".TakeDate">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mycons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/choosedcontacttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/centuryregular"
+            android:text="@string/choosedatetitle"
+            android:textColor="@color/mainText"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/datecontact"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radius"
+            android:fontFamily="@font/centuryregular"
+            android:hint="@string/choosedatetitle"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/choosedcontacttitle" />
+
+        <TextView
+            android:id="@+id/choosedatetitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/centuryregular"
+            android:text="@string/choosedaytitle"
+            android:textColor="@color/mainText"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/datecontact" />
+
+        <EditText
+            android:id="@+id/choosedate"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radius"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/centuryregular"
+            android:hint="@string/dogumtarihigir"
+            android:inputType="date"
+            android:paddingLeft="16dp"
+            android:textCursorDrawable="@drawable/cursorcolor"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/choosedatetitle" />
+
+        <ImageButton
+            android:id="@+id/takedate"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/datebutton"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_dates"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/choosedate" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

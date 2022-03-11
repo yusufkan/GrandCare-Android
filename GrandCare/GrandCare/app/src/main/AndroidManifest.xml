@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deneme2">
+
+    <application
+        android:name=".GlobalVariables"
+        android:allowBackup="true"
+        android:icon="@mipmap/grandcare"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Deneme2"
+        android:windowSoftInputMode="adjustPan">
+        <activity
+            android:name=".TakeDate"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".MainPage"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".SignupMailPhone"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".SignupUser"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".SignupName"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".CreateProfile"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".Login"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".Authentication"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity android:name=".DelayPage" />
+        <activity android:name=".Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

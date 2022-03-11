@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".CreateProfile">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:visibility="visible"
+    android:fillViewport="true"
+    android:isScrollContainer="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/pagefive"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_pagefive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/profiletitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/centuryregular"
+            android:text="PROFİL"
+            android:textColor="@color/mainText"
+            android:textSize="15pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pagefive" />
+
+        <View
+            android:id="@+id/profiledivider"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginEnd="125dp"
+            android:background="@color/divider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profiletitle" />
+
+
+        <!-- .................................... -->
+        <!--              1. SATIR                -->
+        <!-- .................................... -->
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/centuryregular"
+            android:text="İlgi alanları"
+            android:textColor="@color/mainText"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profiledivider" />
+
+        <!-- .................................... -->
+        <!--              2. SATIR                -->
+        <!-- .................................... -->
+
+        <RadioButton
+            android:id="@+id/ilgi1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Kitap"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        <!-- .................................... -->
+        <!--              3. SATIR                -->
+        <!-- .................................... -->
+
+        <RadioButton
+            android:id="@+id/ilgi2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Film"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi1"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        <RadioButton
+            android:id="@+id/ilgi3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Aşçılık"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi1" />
+
+        <RadioButton
+            android:id="@+id/ilgi4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Bisiklet"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi3"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi2" />
+
+        <!-- .................................... -->
+        <!--              4. SATIR                -->
+        <!-- .................................... -->
+
+        <RadioButton
+            android:id="@+id/ilgi5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Dans"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi3" />
+
+        <RadioButton
+            android:id="@+id/ilgi6"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Ebru"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi5"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi4" />
+
+        <RadioButton
+            android:id="@+id/ilgi7"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Hat sanatı"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi5" />
+
+        <RadioButton
+            android:id="@+id/ilgi8"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Çömlek"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi7"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi6" />
+
+        <RadioButton
+            android:id="@+id/ilgi9"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Botanik"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi7" />
+
+        <RadioButton
+            android:id="@+id/ilgi10"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Seyahat"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi9"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi8" />
+
+        <RadioButton
+            android:id="@+id/ilgi11"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Atlar"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi9" />
+
+        <RadioButton
+            android:id="@+id/ilgi12"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Balıkçılık"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi11"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi10" />
+
+        <RadioButton
+            android:id="@+id/ilgi13"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Astronomi"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi11" />
+
+        <RadioButton
+            android:id="@+id/ilgi14"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Astroloji"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi13"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi12" />
+
+        <RadioButton
+            android:id="@+id/ilgi15"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Koleksiyon"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi13" />
+
+        <RadioButton
+            android:id="@+id/ilgi16"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Motorsiklet"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi15"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi14" />
+
+        <RadioButton
+            android:id="@+id/ilgi17"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Arabalar"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi15" />
+
+        <RadioButton
+            android:id="@+id/ilgi18"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Tarih"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi17"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi16" />
+
+        <RadioButton
+            android:id="@+id/ilgi19"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Coğrafya"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi17" />
+
+        <RadioButton
+            android:id="@+id/ilgi20"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Edebiyat"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi19"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi18" />
+
+        <RadioButton
+            android:id="@+id/ilgi21"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Felsefe"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi19" />
+
+        <RadioButton
+            android:id="@+id/ilgi22"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Psikoloji"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi21"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi20" />
+
+        <RadioButton
+            android:id="@+id/ilgi23"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Fizik"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi21" />
+
+        <RadioButton
+            android:id="@+id/ilgi24"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Kimya"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi23"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi22" />
+
+        <RadioButton
+            android:id="@+id/ilgi25"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Kozmik Enerji"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi23" />
+
+        <RadioButton
+            android:id="@+id/ilgi26"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainText"
+            android:fontFamily="@font/centuryregular"
+            android:text="Drama"
+            android:textColor="@color/mainText"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ilgi25"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi24" />
+
+        <RadioGroup
+            android:id="@+id/radiodeneme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgi25">
+
+            <RadioButton
+                android:id="@+id/ilgi27"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/mainText"
+                android:fontFamily="@font/centuryregular"
+                android:text="Diğer"
+                android:textColor="@color/mainText"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <!-- .................................... -->
+        <!--              5. SATIR                -->
+        <!-- .................................... -->
+
+        <!-- .................................... -->
+        <!--              6. SATIR                -->
+        <!-- .................................... -->
+
+        <!-- .................................... -->
+        <!--              7. SATIR                -->
+        <!-- .................................... -->
+
+        <!-- .................................... -->
+        <!--              8. SATIR                -->
+        <!-- .................................... -->
+
+        <!-- .................................... -->
+        <!--              9. SATIR                -->
+        <!-- .................................... -->
+
+
+        <EditText
+            android:id="@+id/ilgidiger"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radius"
+            android:ems="10"
+            android:fontFamily="@font/centuryregular"
+            android:hint="@string/digergir"
+            android:inputType="textLongMessage"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textCursorDrawable="@drawable/cursorcolor"
+            android:textSize="8pt"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiodeneme" />
+
+        <TextView
+            android:id="@+id/kayitsaglik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/centuryregular"
+            android:text="@string/kayitsaglikbilgi"
+            android:textColor="@color/mainText"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilgidiger" />
+
+        <EditText
+            android:id="@+id/saglik"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/radius"
+            android:ems="10"
+            android:fontFamily="@font/centuryregular"
+            android:gravity="start|end"
+            android:hint="@string/saglikbilgigir"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:justificationMode="inter_word"
+            android:padding="16dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textCursorDrawable="@drawable/cursorcolor"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kayitsaglik" />
+
+        <ImageView
+            android:contentDescription="@string/aciklamageri"
+            android:id="@+id/geri5_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ileri5_btn"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/saglik" />
+
+        <ImageView
+            android:contentDescription="@string/aciklamaileri"
+            android:id="@+id/ileri5_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/geri5_btn"
+            app:layout_constraintTop_toBottomOf="@+id/saglik" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView></RelativeLayout>

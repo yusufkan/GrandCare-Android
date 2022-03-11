@@ -1,0 +1,40 @@
+<resources>
+    <style name="Style_TextView">
+        <item name="fontFamily">@font/centuryregular</item>
+    </style>
+    <style name="datepicker" parent="Theme.MaterialComponents.Light.Dialog">
+        <!-- Primary brand color. -->
+        <item name="colorAccent">#C1C1C1</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/PositiveButtonStyled</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/NegativeButtonStyled</item>
+        <item name="android:activityCloseEnterAnimation"> @anim/top_animation </item>
+        <item name="android:activityOpenEnterAnimation"> @anim/bottom_animation </item>
+        <item name="android:fontFamily">@font/centuryregular</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:colorBackground">#353535</item>
+        <item name="android:textColor">#faa300</item>
+
+    </style>
+
+
+    <style name="PositiveButtonStyled" parent="Theme.MaterialComponents.Light">
+        <item name="android:textColor">#353535</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+
+    </style>
+    <style name="NegativeButtonStyled" parent="Theme.MaterialComponents.Light">
+        <item name="android:textColor">#353535</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+
+</resources>
